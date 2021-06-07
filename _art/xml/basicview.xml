@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>7</formatVersion>
+
+    <view name="basic">
+	<text name="nameLabel" extra="true">
+	    <fontPath>./../_art/Acre.otf</fontPath>
+        <fontSize>0.1</fontSize>
+        <alignment>center</alignment>
+		<pos>0.5 0</pos>
+        <origin>0.5 0.15</origin> 		
+    </text>
+	<textlist name="gamelist">
+		<selectorColor>fffffff00</selectorColor>
+        <primaryColor>ffffff99</primaryColor>
+        <secondaryColor>888888</secondaryColor>
+        <fontPath>./../_art/Acre.otf</fontPath>
+        <fontSize>0.040</fontSize>
+        <alignment>center</alignment>
+        <horizontalMargin>0.01</horizontalMargin>
+        <origin>0 0</origin>
+        <lineSpacing>1.4</lineSpacing>
+	</textlist>
+	
+    <image name="backgrounddark" extra="true">
+        <tile>true</tile>
+        <path>./../_art/assets/gamelist.png</path>
+        <size>1 1</size>
+        <pos>0 0</pos>
+		<zIndex>1</zIndex>
+    </image>
+	</view>
+	
+</theme>

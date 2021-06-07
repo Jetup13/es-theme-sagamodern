@@ -1,0 +1,35 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<variables>
+		<mainColor>0094FF</mainColor>
+	</variables>
+	
+	<view name="basic, detailed, video">
+	<textlist name="gamelist">
+        <selectedColor>${mainColor}</selectedColor>
+    </textlist>
+
+	<text name="nameLabel">
+	    <color>${mainColor}</color>	
+    </text>
+	</view>
+	
+	<view name="grid">
+	<text name="md_name">
+	    <color>${mainColor}</color>
+    </text>
+	<ninepatch name="gridtile.background:selected">
+      <animateColor>${mainColor}</animateColor>
+    </ninepatch>
+	<text name="nameLabel">
+	    <color>${mainColor}</color>	
+    </text>
+	</view>
+	
+    <view name="menu">
+	<menuText name="menutext, menutitle">
+        <separatorColor>${mainColor}</separatorColor>
+	</menuText>
+    </view>
+</theme>

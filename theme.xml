@@ -1,0 +1,87 @@
+<!--
+Theme name:  Saga Modern
+Theme by:    Jetup13
+Version:     1.0
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+    <include>./_art/xml/hidden.xml</include>
+    <include>./_art/xml/hiddendescriptions.xml</include>
+    <include>./_art/xml/basicview.xml</include>
+    <include>./_art/xml/detailview.xml</include>
+	<include>./_art/xml/gridview.xml</include>
+	<include>./_art/xml/scrollsound.xml</include>
+
+  	<variables>
+	    <screensizeSubsetname>Emulationstation Screen Size</screensizeSubsetname>
+		<logosSubset>Logos</logosSubset>
+		<colorSubsetname>Color</colorSubsetname>
+	</variables>
+	
+	<subset name="screensize" displayName="${screensizeSubsetname}">
+	    <include name="header" displayName="${header}">./_art/screensize/header.xml</include>
+		<include name="fullscreen" displayName="${fullscreen}">./_art/screensize/fullscreen.xml</include>
+		<include name="351v" displayName="${351v}">./_art/screensize/351v.xml</include>
+		<include name="ogs" displayName="${ogs}">./_art/screensize/ogs.xml</include>
+    </subset>
+	
+	<subset name="logos" displayName="${logosSubset}">
+	    <include name="white" displayName="${white}">./_art/xml/whitelogos.xml</include>
+		<include name="color" displayName="${color}">./_art/xml/colorlogos.xml</include>
+    </subset>
+	
+	<subset name="color" displayName="${colorSubsetname}">
+        <include name="Blue" displayName="${Blue}">./_art/color/blue.xml</include>
+		<include name="Green" displayName="${Green}">./_art/color/Green.xml</include>
+        <include name="Mint" displayName="${Mint}">./_art/color/mint.xml</include>
+		<include name="Orange" displayName="${Orange}">./_art/color/Orange.xml</include>
+		<include name="Purple" displayName="${Purple}">./_art/color/purple.xml</include>
+		<include name="Red" displayName="${Red}">./_art/color/red.xml</include>
+		<include name="Yellow" displayName="${Yellow}">./_art/color/yellow.xml</include>
+    </subset>
+	
+	<view name="system, video, detailed, basic, grid">
+	<helpsystem name="help">
+		<origin>1 1</origin>
+    </helpsystem>
+	</view>
+
+    <view name="menu">
+    <menuBackground name="menubg">
+	 <color>202020</color>
+    </menuBackground>
+	
+	<menuText name="menutext, menutitle">
+	  <fontPath>./_art/Acre.otf</fontPath>
+	  <fontSize>.038</fontSize>
+	  <color>ffffff</color>
+	</menuText>
+	
+	<menuText name="menufooter, menutextsmall">
+      <fontPath>./_art/Acre.otf</fontPath>
+      <fontSize>.029</fontSize>		 
+      <color>ffffff</color>
+    </menuText>
+	
+	<menuTextEdit name="menutextedit">
+      <inactive>./_art/assets/textinput_inactive.png</inactive>
+      <active>./_art/assets/textinput_active.png</active>
+    </menuTextEdit>
+	</view>
+	
+	<view name="screen">
+   
+    <text name="clock">
+	  <fontPath>./_art/Acre.otf</fontPath>
+      <fontSize>0.04</fontSize>
+	  <color>ffffff99</color>
+      <pos>0.88 .95</pos>
+      <size>0.4 0.039</size>
+      <alignment>left</alignment>
+      <verticalAlignment>center</verticalAlignment>
+    </text>
+    </view>
+	
+</theme>

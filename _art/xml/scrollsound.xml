@@ -1,0 +1,15 @@
+<theme>
+<formatVersion>7</formatVersion>
+
+    <view name="grid">
+	<imagegrid name="gamegrid">
+      <scrollSound>./../_art/assets/scroll.wav</scrollSound>
+    </imagegrid>
+    </view>
+	
+	<view name="basic,detailed,video">
+	<textlist name="gamelist"> 
+	  <scrollSound>./../_art/assets/scroll.wav</scrollSound>
+	</textlist>
+	</view>
+</theme>	
