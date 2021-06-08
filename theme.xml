@@ -13,6 +13,7 @@ Version:     1.0
     <include>./_art/xml/detailview.xml</include>
 	<include>./_art/xml/gridview.xml</include>
 	<include>./_art/xml/scrollsound.xml</include>
+	<include>./_art/xml/backgroundmusic.xml</include>
 
   	<variables>
 	    <screensizeSubsetname>Emulationstation Screen Size</screensizeSubsetname>

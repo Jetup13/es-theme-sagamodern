@@ -4,7 +4,7 @@
     <view name="detailed,video">
 	<text name="nameLabel" extra="true">
 	    <fontPath>./../_art/Acre.otf</fontPath>
-        <fontSize>0.1</fontSize>
+        <fontSize>0.08</fontSize>
         <alignment>left</alignment>
 		<horizontalMargin>0.01</horizontalMargin>
         <origin>0 0</origin> 		
@@ -14,16 +14,16 @@
         <primaryColor>ffffff99</primaryColor>
         <secondaryColor>888888</secondaryColor>
         <fontPath>./../_art/Acre.otf</fontPath>
-        <fontSize>0.040</fontSize>
+        <fontSize>0.04</fontSize>
         <alignment>left</alignment>
         <horizontalMargin>0.01</horizontalMargin>
-        <origin>1.05 0</origin>
+        <origin>1.05 0.05</origin>
         <lineSpacing>1.4</lineSpacing>
 	</textlist>
 	
     <image name="backgrounddark" extra="true">
         <tile>true</tile>
-        <path>./../_art/assets/gamelist.png</path>
+        <path>./../_art/assets/gamelist2.png</path>
         <size>1 1</size>
         <pos>0 0</pos>
 		<zIndex>1</zIndex>
