@@ -1,7 +1,15 @@
 <theme>
 <formatVersion>7</formatVersion>
 
+  	<variables>
+	    <metaSubsetname>Show Metadata</metaSubsetname>
+	</variables>
 	
+	<subset name="meta" displayName="${metaSubsetname}">
+	    <include name="no"/>
+		<include name="yes">./../../_art/xml/detailviewmetaogs.xml</include>
+    </subset>
+
     <view name="system">
 	<carousel name="systemcarousel">
           <type>horizontal</type>
@@ -82,27 +90,6 @@
 	<textlist name="gamelist">
         <lineSpacing>1.5</lineSpacing>
 	</textlist>
-
-	<video name="md_video">
-         <origin>0.5 0.5</origin>
-         <pos>0.75 0.30</pos>
-         <maxSize>0.55 0.55</maxSize>
-         <delay>1</delay>
-         <zIndex>2</zIndex>         
-         <showSnapshotNoVideo>true</showSnapshotNoVideo>
-         <showSnapshotDelay>true</showSnapshotDelay>
-    </video>
-	
-    <text name="md_description">
-        <fontPath>./../_art/Acre.otf</fontPath>
-        <fontSize>0.034</fontSize>
-	    <alignment>left</alignment>
-        <forceUppercase>0</forceUppercase>
-        <lineSpacing>1</lineSpacing>
-		<pos>0.50 0.6</pos>
-        <size>0.5 0.340</size>
-        <color>ffffff99</color>
-    </text>
 	</view>
 	
 </theme>

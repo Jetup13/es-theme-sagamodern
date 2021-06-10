@@ -1,6 +1,14 @@
 <theme>
 <formatVersion>7</formatVersion>
 
+  	<variables>
+	    <metaSubsetname>Show Metadata</metaSubsetname>
+	</variables>
+	
+	<subset name="meta" displayName="${metaSubsetname}">
+	    <include name="no">./../../_art/xml/detailviewmeta351v1.xml</include>
+		<include name="yes">./../../_art/xml/detailviewmeta351v2.xml</include>
+    </subset>
 	
     <view name="system">
 	<carousel name="systemcarousel">
@@ -77,18 +85,6 @@
 		<origin>0 0</origin>
 		<zIndex>0</zIndex>
     </image>
-	</view>
-	
-	<view name="detailed, video">
-	<video name="md_video">
-         <origin>0.5 0.5</origin>
-         <pos>0.75 0.50</pos>
-         <maxSize>0.5 0.5</maxSize>
-         <delay>1</delay>
-         <zIndex>2</zIndex>         
-         <showSnapshotNoVideo>true</showSnapshotNoVideo>
-         <showSnapshotDelay>true</showSnapshotDelay>
-    </video>
 	</view>
 	
 </theme>

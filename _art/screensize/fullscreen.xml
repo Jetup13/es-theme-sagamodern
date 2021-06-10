@@ -1,6 +1,14 @@
 <theme>
 <formatVersion>7</formatVersion>
 
+  	<variables>
+	    <metaSubsetname>Show Metadata</metaSubsetname>
+	</variables>
+	
+	<subset name="meta" displayName="${metaSubsetname}">
+	    <include name="no"/>
+		<include name="yes">./../../_art/xml/detailviewmetafull.xml</include>
+    </subset>
 	
     <view name="system">
 	<carousel name="systemcarousel">
