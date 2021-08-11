@@ -67,7 +67,7 @@
     </text>
 	</view>
 	
-	<view name="basic,detailed,videom,grid">
+	<view name="basic,detailed,video,grid">
 	
 	<image name="background" extra="true">
         <tile>false</tile>
