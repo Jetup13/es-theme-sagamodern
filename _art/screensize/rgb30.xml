@@ -1,0 +1,90 @@
+<theme>
+<formatVersion>7</formatVersion>
+
+  	<variables>
+	    <metaSubsetname>Show Metadata</metaSubsetname>
+	</variables>
+	
+	<subset name="meta" displayName="${metaSubsetname}">
+	    <include name="no">./../../_art/xml/detailviewmetargb30v1.xml</include>
+		<include name="yes">./../../_art/xml/detailviewmetargb30v2.xml</include>
+    </subset>
+	
+    <view name="system">
+	<carousel name="systemcarousel">
+          <type>horizontal</type>
+          <pos>0 -0.42</pos>
+          <size>1 1</size>
+          <origin>0 0</origin>
+          <color>00000000</color>
+          <logoScale>1</logoScale>
+          <logoSize>0.195 0.195</logoSize>
+          <logoAlignment>center</logoAlignment>
+          <maxLogoCount>5</maxLogoCount>
+    </carousel>
+	
+	<image name="background" extra="true">
+        <path>./../_art/backgrounds30/${system.theme}.jpg</path>
+        <tile>false</tile>
+        <size>1 1</size>
+        <pos>0 0.15</pos>
+        <origin>0 0</origin>
+		<zIndex>0</zIndex>
+    </image>
+	
+	<image name="backgrounddark" extra="true">
+        <path>./../_art/assets/background.png</path>
+        <tile>true</tile>
+        <size>1 1</size>
+        <pos>0 0</pos>
+        <origin>0 0</origin>
+		<zIndex>1</zIndex>
+    </image>
+	
+	<text name="systemInfo">
+        <fontPath>./../_art/Acre.otf</fontPath>
+        <alignment>left</alignment>
+        <backgroundColor>00000000</backgroundColor>
+		<color>ffffff99</color>
+        <forceUppercase>1</forceUppercase>
+        <origin>0 0</origin>
+        <pos>0.005 0.95</pos>
+        <size>0.500 0.039</size>
+        <fontSize>0.04</fontSize>
+		<zIndex>5</zIndex>
+    </text>
+	
+	<text name="sys_line1" extra="true">
+		<fontPath>./../_art/Acre.otf</fontPath>
+        <forceUppercase>1</forceUppercase>
+        <fontSize>0.058</fontSize>
+        <color>ffffff99</color>
+        <origin>0 0</origin>
+        <pos>0.008 0.73</pos>
+        <size>0 0</size>
+    </text>
+    
+    <text name="sys_line2" extra="true">
+        <fontPath>./../_art/Acre.otf</fontPath>
+        <forceUppercase>1</forceUppercase>
+        <fontSize>0.138</fontSize>
+        <color>ffffff99</color>
+        <origin>0 0</origin>
+        <pos>0.003 0.75</pos>
+        <size>0 0</size>
+    </text>
+	</view>
+	
+	<view name="basic,detailed,video,grid">
+	
+	<image name="background" extra="true">
+        <tile>false</tile>
+        <path>./../_art/backgrounds30/${system.theme}.jpg</path>
+		<maxSize>1 1</maxSize>
+        <pos>0 0</pos>
+		<origin>0 0</origin>
+		<zIndex>0</zIndex>
+    </image>
+	</view>
+	
+</theme>

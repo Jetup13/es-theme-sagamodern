@@ -1,0 +1,17 @@
+<theme>
+<formatVersion>7</formatVersion>
+
+    <view name="detailed,video">
+	<video name="md_video">
+         <origin>0.5 0.5</origin>
+         <pos>0.75 0.50</pos>
+         <maxSize>0.5 0.5</maxSize>
+         <delay>1</delay>
+         <zIndex>2</zIndex>         
+         <showSnapshotNoVideo>true</showSnapshotNoVideo>
+         <showSnapshotDelay>true</showSnapshotDelay>
+		 <effect>none</effect>
+    </video>
+	</view>
+	
+</theme>
